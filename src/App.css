@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Poppins:wght@400;700&display=swap");
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+}
+body {
+  cursor: none;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Mountains of Christmas", cursive;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* background: red; */
+  opacity: 0.8;
+  z-index: 42;
+}
+
+.cursor-dot--outline {
+  width: 36px;
+  height: 36px;
+  opacity: 0.6;
+}
+
+.button_sound {
+  position: absolute;
+  z-index: 100;
+  top: 10px;
+  right: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  background: url("../src/assets/6394795.jpg");
+  background-size: cover;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.canvas {
+  z-index: 0;
+}
