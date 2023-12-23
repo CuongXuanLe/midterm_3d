@@ -9,7 +9,6 @@ import { useFrame } from "@react-three/fiber";
 import gsap from "gsap";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
-// should be put elsewhere :)
 function debounce(fn, ms) {
   let timer;
   return (_) => {

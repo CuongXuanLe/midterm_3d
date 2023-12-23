@@ -4,7 +4,6 @@ import { randFloat } from "three/src/math/MathUtils";
 import { ChristmasTree } from "./ChristmasTree";
 import { Gift } from "./Gift";
 import { MerryChristmasText } from "./MerryChristmasText";
-// import { Santa } from "./Santa";
 import { Stage } from "./Stage";
 
 const GIFTS_NBR = 120;
